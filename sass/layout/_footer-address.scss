@@ -1,0 +1,28 @@
+.footer-address {
+    width: 270px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.address-list {
+    margin-top: 20px;
+}
+.studio-footer, .city {
+    color: $white-color;
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: $accent-color;
+    }
+}
+.city {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+}
+.adress-items:not(:last-child) {
+    margin-bottom: 9px;
+}

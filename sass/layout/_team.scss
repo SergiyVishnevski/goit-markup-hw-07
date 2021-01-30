@@ -1,0 +1,24 @@
+.our_team {
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    text-align: center;
+}
+.items-text {
+    color: $title-text-color;
+    line-height: 1.714;
+    font-size: inherit;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.team-title {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 10px;
+}
